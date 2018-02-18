@@ -8,8 +8,54 @@ public class Task {
     private LocalDateTime taskEnd;
     private boolean done;
     private String timeString;
+    private int dayEnd;
+    private int yearEnd;
+    private int monthEnd;
+    private int hourEnd;
+    private int minutesEnd;
+
+    public int getDayEnd() {
+        return dayEnd;
+    }
+
+    public void setDayEnd(int dayEnd) {
+        this.dayEnd = dayEnd;
+    }
+
+    public int getYearEnd() {
+        return yearEnd;
+    }
+
+    public void setYearEnd(int yearEnd) {
+        this.yearEnd = yearEnd;
+    }
+
+    public int getMonthEnd() {
+        return monthEnd;
+    }
+
+    public void setMonthEnd(int monthEnd) {
+        this.monthEnd = monthEnd;
+    }
+
+    public int getHourEnd() {
+        return hourEnd;
+    }
+
+    public void setHourEnd(int hourEnd) {
+        this.hourEnd = hourEnd;
+    }
+
+    public int getMinutesEnd() {
+        return minutesEnd;
+    }
+
+    public void setMinutesEnd(int minutesEnd) {
+        this.minutesEnd = minutesEnd;
+    }
 
     public boolean isDone() {
+
         return done;
     }
 
